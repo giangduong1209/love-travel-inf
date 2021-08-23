@@ -1,6 +1,11 @@
 :root{
     --text-color-content: #9a9a9a;
     --text-color-title:  #ffffff;
+    --purple-color: #ba71da;
+    --green-color: #1bbc9b;
+    --blue-color: #14b9d5;
+    --yellow-color: #ffd205;
+    --red-color: #f76570;
 }
 
 *{
