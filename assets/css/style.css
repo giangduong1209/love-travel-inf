@@ -58,7 +58,7 @@
 .header-item__link--active{
     text-decoration: none;
     text-transform: uppercase;
-    padding: 12px 30px 5px 30px;
+    padding: 12px 30px 12px 30px;
     font-size: 1.4rem;
     color: var(--text-color-title);
     font-weight: 380;
