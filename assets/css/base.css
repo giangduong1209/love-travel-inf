@@ -1,0 +1,15 @@
+:root{
+    --text-color-content: #9a9a9a;
+    --text-color-title: #fff;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
