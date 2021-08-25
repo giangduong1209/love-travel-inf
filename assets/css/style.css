@@ -264,6 +264,7 @@
 
 .nav-bar__tour{
     display: flex;
+    padding: 15px;
     
 }
 
@@ -276,7 +277,7 @@
     display: block;
     text-decoration: none;
     font-size: 1.6rem;
-    padding: 10px 10px 0 0;
+    padding: 10px 22px 0 0;
     width: 100%;
 }
 
