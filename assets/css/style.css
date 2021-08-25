@@ -209,12 +209,16 @@
     top: 0;
     right: 0;
     width: 330px;
-    height: 100%;
+    height: 100vh;
     background-color: white;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 
-.nav-bar > p{
+.nav-bar__content{
+    padding: 0 15px;
+}
+
+.nav-bar__content > p{
     text-align: center;
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -242,7 +246,7 @@
     color: rgba(0, 0, 0, 0.75);
     font-weight: 800;
     z-index: 1;
-    
+    margin-bottom: 50px;
 }
 
 .nav-bar__heading::after{
@@ -259,24 +263,25 @@
 
 
 .nav-bar__tour{
-
+    display: flex;
+    
 }
 
 .nav-bar__tour-img{
-
+    width: 100px;
+    margin-right: 50px;
 }
 
-.nav-bar__tour-content{
-
+.tour-content__link{
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 10px 10px 0 0;
+    width: 100%;
 }
-
 
 .tour-content__heading{
-
-}
-
-.tour-content__location{
-
+    color: black;
 }
 
 .tour-location__icon{
@@ -284,7 +289,7 @@
 }
 
 .tour-location__name{
-
+    color: var(--text-color-content);
 }
 
 .tour-content__price{
