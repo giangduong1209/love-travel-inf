@@ -1,3 +1,7 @@
+.container{
+    position: relative;
+}
+
 .header{
     height: 872px;
     width: 100%;
@@ -199,3 +203,93 @@
 .header-item-cont:hover .sub-menu-cont{
     display: block;
 }
+
+.nav-bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 330px;
+    height: 100%;
+    background-color: white;
+    /* overflow-y: scroll; */
+}
+
+.nav-bar > p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin: 45px 0 10px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--text-color-content);
+}
+
+.nav-bar__close-icon{
+    float: right;
+    font-size: 2.4rem;
+    color: var(--text-color-content);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-bar__heading{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 800;
+    z-index: 1;
+    
+}
+
+.nav-bar__heading::after{
+    position: absolute;
+    content: "";
+    background-color: #ffd105;
+    width: 41%;
+    height: 5px;
+    left: 29%;
+    opacity: 100;
+    bottom: 3px;
+    z-index: -9;
+}
+
+
+.nav-bar__tour{
+
+}
+
+.nav-bar__tour-img{
+
+}
+
+.nav-bar__tour-content{
+
+}
+
+
+.tour-content__heading{
+
+}
+
+.tour-content__location{
+
+}
+
+.tour-location__icon{
+
+}
+
+.tour-location__name{
+
+}
+
+.tour-content__price{
+
+}
+
+
+
