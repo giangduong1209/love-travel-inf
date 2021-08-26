@@ -326,6 +326,16 @@
     text-transform: uppercase;
 }
 
+.nav-bar__colection{
+    padding: 15px;
+}
+
+.nav-bar__colection-img{
+    width: 260px;
+    height: 260px;
+}
+
+
 .tour-content__link--yelow{
     background: linear-gradient(to right, #ffcf05, #ff9e05)
 }
