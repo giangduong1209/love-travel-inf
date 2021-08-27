@@ -340,6 +340,15 @@
     animation: fadeIn linear 2s;
 }
 
+@keyframes fadeOut{
+    from{
+        background-color: var(--blue-color);
+    }
+    to{
+        background: transparent;
+    }
+}
+
 @keyframes fadeIn{
     from{
         background: transparent;
@@ -354,6 +363,7 @@
     width: 262px;
     height: 262px;
     display: block;
+    animation: fadeOut linear 1s;
 }
 
 .nav-bar__colection-image{
