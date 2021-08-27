@@ -337,8 +337,17 @@
 
 .nav-bar__colection:hover .nav-bar__colection-img--active{
     display: block;
+    animation: fadeIn linear 2s;
 }
 
+@keyframes fadeIn{
+    from{
+        background: transparent;
+    }
+    to{
+        background-color: var(--blue-color);
+    }
+}
 
 .nav-bar__colection-img{
     position: relative;
@@ -395,7 +404,8 @@
     height: 262px;
     background-color: var(--blue-color);
     padding: 30px;
-
+    
+    will-change: transform;
 }
 
 .nav-bar__colection-subtent{
