@@ -72,7 +72,9 @@
     border-radius: 40px;
 }
 
+
 .menu-icon{
+    cursor: pointer;
     font-size: 3rem;
     margin-right: 60px;
     color: white;
@@ -208,11 +210,15 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 330px;
+    max-width: 330px;
     height: 100vh;
     background-color: white;
     overflow-y: scroll;
+    transform: translateX(100%);
+    transition: 1s;
 }
+
+
 
 .nav-bar__content{
     padding: 0 15px;
@@ -329,6 +335,7 @@
 .nav-bar__colection{
     position: relative;
     padding: 15px;
+    transition: all linear .9s;
 }
 
 .nav-bar__colection:hover .nav-bar__colection-img{
@@ -338,6 +345,17 @@
 .nav-bar__colection:hover .nav-bar__colection-img--active{
     display: block;
     animation: fadeIn linear 2s;
+    
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        background-color: var(--blue-color);
+    }
 }
 
 @keyframes fadeOut{
@@ -349,21 +367,13 @@
     }
 }
 
-@keyframes fadeIn{
-    from{
-        background: transparent;
-    }
-    to{
-        background-color: var(--blue-color);
-    }
-}
 
 .nav-bar__colection-img{
     position: relative;
     width: 262px;
     height: 262px;
     display: block;
-    animation: fadeOut linear 1s;
+    transition: 0.3s;
 }
 
 .nav-bar__colection-image{
@@ -414,8 +424,6 @@
     height: 262px;
     background-color: var(--blue-color);
     padding: 30px;
-    
-    will-change: transform;
 }
 
 .nav-bar__colection-subtent{
