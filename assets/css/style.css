@@ -523,8 +523,12 @@
     letter-spacing: 4px;
 }
 
+.header-content__search{
+    position: relative;
+}
 
 .header-content__search-content{
+
     display: block;
     font-size: 1.6rem;
     width: 400px;
@@ -538,13 +542,26 @@
     padding: 10px 25px;
     color: var(--text-color-content);
     text-align: center;
+    border-color: currentColor;
     cursor: pointer;
 }
 
-.header-content__search-icon{
-    font-size: 1.7rem;
-    color: var(--text-color-content);
-    padding: 10px 20px;
+
+.header-content__search-submit{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-content__search-submit input{
+    
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/plugins/nd-travel/addons/visual/search/layout/icon-search-grey.png);
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 47px;
+    height: 47px;
 }
 
 
