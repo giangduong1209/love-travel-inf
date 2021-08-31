@@ -647,3 +647,141 @@
     background-color: var(--green-color);
     z-index: -1;
 }
+
+.content-tour{
+    width: 100%;
+}
+
+
+.content-tour__travel-section{
+    padding: 15px;
+    width: 100%;
+}
+
+.travel-section{
+    width: 100%;
+}
+
+.travel-section__container{
+    position: relative;
+    width: 100%;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.travel-section__container .travel-section__container-img:hover{
+    opacity: 0;
+}
+
+/* .travel-section__container:hover .travel-section__container-filter{
+    opacity: 1;
+} */
+
+.travel-section__container-img{
+    width: 100%;
+    filter: brightness(95%);
+}
+
+.travel-section__sub-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sub-container__des{
+    position: absolute;
+    padding: 30px;
+    left: 0;
+    bottom: -365px;
+}
+
+.sub-container__img-sec{
+    position: absolute;
+    padding: 30px;
+}
+
+.sub-container__img{
+    width: 35px;
+}
+
+
+.sub-container__des-header{
+    font-size: 2rem;
+    color: var(--text-color-title);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.sub-container__des-text{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    line-height: 1.3rem;
+}
+
+.travel-section__container-filter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--blue-color);
+}
+
+.container-filter__content{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-filter__content-header{
+    font-size: 20px;
+    color: var(--text-color-title);
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.content-link__colection{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.container-link_sub{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--text-color-title);
+    letter-spacing: 2px;
+}
+
+.content-link__button{
+    background-color: var(--text-color-title);
+    border-radius: 20px;
+}
+
+.content-link__button-primary{
+    display: block;
+    padding: 5px 20px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.6rem;
+}
