@@ -548,14 +548,15 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    bottom: 0;
+    right: 0;
 }
 
 .sub-container__des{
     position: absolute;
     padding: 30px;
     left: 0;
-    bottom: -365px;
+    bottom: 0;
 }
 
 .sub-container__img-sec{
