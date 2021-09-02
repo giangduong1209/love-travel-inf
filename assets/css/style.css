@@ -701,3 +701,51 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+.travel-tour{
+    padding: 20px 35px 20px 15px;
+}
+
+.travel-tour__header-local{
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-color-content);
+}
+
+.travel-tour__header-name{
+    font-size: 3.6rem;
+    padding: 20px 0 45px 0;
+    color: var(--text-color-sub-title);
+    line-height: 3rem;
+    font-weight: 800;
+}
+
+.travel-tour__content{
+
+}
+
+.travel-tour__price{
+
+}
+
+.travel-tour__prices-old{
+
+}
+
+.travel-tour__prices-new{
+
+}
+
+.travel-tour__prices-person{
+
+}
+
+.travel-tour__book{
+
+}
+
+.travel-tour__book-link{
+
+}
