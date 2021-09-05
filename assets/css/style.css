@@ -799,6 +799,7 @@
     height: 100%;
     left: 0;
     list-style: none;
+    overflow: hidden;
 }
 
 .bullets{
@@ -820,6 +821,13 @@
     background: rgba(255,255,255,0.5);
 }
 
+.bullet:hover{
+    background: white;
+}
+
+.bullet-selected{
+    background-color: white;
+}
 
 .colection-wrap__img-item{
     width: 100%;
@@ -834,7 +842,6 @@
 }
 
 .colection-wrap__img-spec{
-    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -842,3 +849,14 @@
     height: 100%;
 }
 
+.colection-wrap__img-fir{
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-3.jpg");
+}
+
+.colection-wrap__img-sec{
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-4.jpg");
+}
+
+.colection-wrap__img-thir{
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-4-1.jpg");
+}
