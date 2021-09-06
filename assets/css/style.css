@@ -927,3 +927,46 @@
     text-transform: uppercase;
     font-weight: 300;
 }
+
+.tour-category{
+    margin-top: 100px;
+}
+
+.world-tour{
+    display: flex;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.world-tour__img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.world-tour__content{
+    width: 100%;
+}
+
+.world-tour__header{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--text-color-sub-title);
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.world-tour__des{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: var(--text-color-content);
+    margin: 20px 0;
+}
+
+.world-tour__link{
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--blue-color);
+    letter-spacing: 2px;
+}
