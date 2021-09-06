@@ -773,11 +773,13 @@
 }
 
 .travel-wrap{
+    position: relative;
     width: 100%;
     height: 100%;
 }
 
 .travel-wrap__colection{
+    position: relative;
     width: 100%;
 }
 
@@ -859,4 +861,69 @@
 
 .colection-wrap__img-thir{
     background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-4-1.jpg");
+}
+
+.travel-date__contain{
+    position: absolute;
+    width: 100%;
+    bottom: -15%;
+}
+
+.date__contain-wrap{
+    width: 66.666%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--blue-color);
+}
+
+.date__contain-section{
+    width: 100%;
+}
+
+.contain-section__wrap{
+    width: 100%;
+}
+
+.wrap-count{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.wrap-option{
+    width: 25%;
+    text-align: center;
+}
+
+.wrap-option::after{
+    display: block;
+    content: "/";
+    position: absolute;
+    top: 45px;
+    font-size: 6rem;
+    color: black;
+    opacity: 0.05;
+    z-index: 99;
+}
+
+.wrap-option:first-child:after{
+    display: none;
+}
+
+.wrap-option__count-num{
+    font-size: 3.5rem;
+    color: var(--text-color-title);
+    margin-top: 30px;
+    line-height: 3.5rem;
+}
+
+.wrap-option__count-name{
+    font-size: 1.3rem;
+    color: var(--text-color-title);
+    margin-bottom: 30px;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 300;
 }
