@@ -970,3 +970,81 @@
     color: var(--blue-color);
     letter-spacing: 2px;
 }
+
+.tour-areas{
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+
+.tour-area__background_city{
+    position: relative;
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-5-filter.jpg?id=1584");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+
+}
+
+.tour-area__background_nature{
+    position: relative;
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-6-filter.jpg?id=1585");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+}
+
+
+.tour-area__content{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tour-area__header-sub{
+    font-size: 1.4rem;
+    color: var(--text-color-title);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.tour-area__header-pri{
+    font-size: 3.6rem;
+    color: var(--text-color-title);
+    padding: 20px 0 30px 0;
+    line-height: 3.6rem;
+}
+
+.tour-area__link{
+    background-color: white;
+    border-radius: 25px;
+    width: 140px;
+}
+
+.tour-area__link-detail{
+    display: block;
+    padding: 15px 20px;
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.tour-area__link-detail--city{
+    color: var(--orange-color);
+}
+
+.tour-area__link-detail--nature{
+    color: var(--green-color);
+}
