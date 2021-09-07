@@ -7,6 +7,7 @@
     --yellow-color: #ffd205;
     --red-color: #f76570;
     --text-color-sub-title: #555555;
+    --orange-color: #f3a496;
 }
 
 *{
@@ -42,4 +43,7 @@ html{
     width: 66.667%;
 }
 
+.col-5{
+    width: 50%;
+}
 
