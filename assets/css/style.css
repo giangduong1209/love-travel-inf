@@ -1185,10 +1185,51 @@
     padding-right: 5px;
 }
 
+.tour-package__travel-cul-wrap{
+    display: flex;
+}
+
 .tour-package__travel-cul-wrap-count{
+    display: block;
+    position: relative;
     border-radius: 30px;
     padding: 2px 10px;
     color: white;
+    user-select: none;
+}
+
+
+.travel-cul__wrap-sub{
+    display: none;
+    position: absolute;
+    background-color: #555555;
+    bottom: -45px;
+    left: 0;
+}
+
+.tour-package__travel-cul-wrap-count:hover .travel-cul__wrap-sub{
+    display: block;
+}
+
+.travel-cul__wrap-sub::after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 9px;
+    color: #555555;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent currentColor transparent;
+}
+
+.travel-cul__wrap-count-name{
+    display: block;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    user-select: none;
 }
 
 .tour-package__travel-price--old{
