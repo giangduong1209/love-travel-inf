@@ -1303,3 +1303,122 @@
 .tour-package__link--violet{
     background-color: #ba71da;
 }
+
+.footer{
+    margin-top: 80px;
+}
+
+.footer-background{
+    position: relative;
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-7.jpg?id=1602");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer-container{
+    padding: 0 30px;
+}
+
+.footer-contact{
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-contact__header{
+
+}
+
+.footer-contact__header-name{
+    font-size: 1.4rem;
+    color: #9a9a9a;
+    text-transform: uppercase;
+    font-weight: 350;
+    letter-spacing: 2px;
+}
+
+.footer-contact__header-name-pri{
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.footer-contact__content{
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact__content-field{
+    width: 260px;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+
+.footer-contact__content-input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    line-height: 2rem;
+    outline: none;
+    border-color: #f1f1f1;
+    border-style: solid;
+    color: #9a9a9a;
+    font-size: 1.6rem;
+
+}
+
+.footer-contact__content-field-submit{
+    width: 100px;
+}
+
+.footer-contact__input-submit{
+    width: 100%;
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+    line-height: 2rem;
+    outline: none;
+    border-color: var(--blue-color);
+    border-style: solid;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer-content{
+
+}
+
+.footer-content__container{
+
+}
+
+.footer-content__container-general{
+
+}
+
+.footer-content__container-title{
+
+}
+
+.footer-content__container-des{
+
+}
+
+.footer-content__container-social{
+
+}
+
+.footer-content__container-social-link{
+
+}
