@@ -640,31 +640,18 @@
                                 <div class="travel-wrap__colection">
                                     <div class="travel-wrap__colection-wrap">
                                         <div class="colection-wrap__img-contain">
-                                            <ul class="colection-wrap__img-list">
-                                                <li class="colection-wrap__img-item">
-                                                    <div class="colection-wrap__img">
-                                                        <div class="colection-wrap__img-spec colection-wrap__img-fir">
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="colection-wrap__img-item">
-                                                    <div class="colection-wrap__img">
-                                                        <div class="colection-wrap__img-spec colection-wrap__img-sec">
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="colection-wrap__img-item">
-                                                    <div class="colection-wrap__img">
-                                                        <div class="colection-wrap__img-spec colection-wrap__img-thir">
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                            </ul>
+                                            <div class="colection-wrap__img-list"> 
+                                                <div class="colection-wrap__img-spec colection-wrap__img-fir active">
+                                                </div>
+                                                <div class="colection-wrap__img-spec colection-wrap__img-sec ">
+                                                </div> 
+                                                <div class="colection-wrap__img-spec colection-wrap__img-thir ">
+                                                </div>
+                                            </div>
                                             <div class="bullets">
-                                                <div class="bullet bullet-selected"></div>
-                                                <div class="bullet"></div>
-                                                <div class="bullet"></div>
+                                                <div class="bullet active"></div>
+                                                <div class="bullet "></div>
+                                                <div class="bullet "></div>
                                             </div>
                                         </div>
                                     </div>
@@ -1074,6 +1061,23 @@
     </div>
     <script>
         const navBar = document.querySelector(".nav-bar");
+        
+        const bullets = document.querySelectorAll('.bullet');
+        const imgSlides = document.querySelectorAll('.colection-wrap__img-spec');
+
+
+
+        bullets.forEach((bullet, index) =>{
+            bullet.onclick = function(){
+                const imgSlide = imgSlides[index];
+                const bulletActiveClicked = document.querySelector('.bullet.active')
+                const imgSlideActiveClicked = document.querySelector('.colection-wrap__img-spec.active')
+                imgSlideActiveClicked.classList.remove('active');
+                imgSlide.classList.add('active');
+                bulletActiveClicked.classList.remove('active');
+                bullet.classList.add('active');
+            }
+        })
         
         function openNav(){
             navBar.style.transform = "translateX(0)";
