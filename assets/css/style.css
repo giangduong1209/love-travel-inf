@@ -798,10 +798,10 @@
 }
 
 .colection-wrap__img-list{
+    display: flex;
     height: 100%;
     left: 0;
-    list-style: none;
-    overflow: hidden;
+    
 }
 
 .bullets{
@@ -827,23 +827,17 @@
     background: white;
 }
 
-.bullet-selected{
+.bullet.active{
+    display: block;
     background-color: white;
 }
 
-.colection-wrap__img-item{
-    width: 100%;
-    height: 100%;
-
-}
-
-.colection-wrap__img{
-    width: 100%;
-    height: 100%;
-
+.colection-wrap__img-spec.active{
+    display: block;
 }
 
 .colection-wrap__img-spec{
+    display: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
