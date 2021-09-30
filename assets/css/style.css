@@ -10,6 +10,15 @@
     opacity: 0.9;
 }
 
+.header.header-background{
+    height: 370px;
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-14.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .header-nav{
     align-items: flex-start;
     background-color: rgba(0, 0, 0, 0.2);
@@ -35,6 +44,16 @@
     position: relative;
     top: -13px;
     font-weight: 800;
+}
+
+.header__sport{
+    position: absolute;
+    color: var(--text-color-title);
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    bottom: 20%;
+    left: 20%;
 }
 
 .header-name .header-name__icon{
@@ -336,28 +355,30 @@
 
 
 .tour-content__link--yelow{
-    background: linear-gradient(to right, #ffcf05, #ff9e05)
+    background: linear-gradient(to right, #ffcf05, #ff9e05);
 }
 
 .tour-content__link--red{
-    background: linear-gradient(to right, #f76970, #f78a65)
+    background: linear-gradient(to right, #f76970, #f78a65);
 }
 
 .tour-content__link--purple{
-    background: linear-gradient(to right, #be71ce, #d77182)
+    background: linear-gradient(to right, #be71ce, #d77182);
 }
 
 .tour-content__link--green{
-    background: linear-gradient(to right, #1cbd97, #1bbc65)
+    background: linear-gradient(to right, #1cbd97, #1bbc65);
 }
 
 .tour-content__link--org{
-    background: linear-gradient(to right, #f3a66b, #f3c76c)
+    background: linear-gradient(to right, #f3a66b, #f3c76c);
 }
 
 .tour-content__link--blue{
-    background: linear-gradient(to right, #14bbd3, #15d2b6)
+    background: linear-gradient(to right, #14bbd3, #15d2b6);
 }
+
+
 
 .header-container{
     position: absolute;
@@ -1296,6 +1317,18 @@
 
 .tour-package__link--violet{
     background-color: #ba71da;
+}
+
+.tour-package__wrap-link--blue{
+    background: linear-gradient(to right, #14bbd3, #15d2b6);
+}
+
+.tour-package__travel-cul-wrap-count--blue{
+    background-color: #14bbd3;
+}
+
+.tour-package__link--blue{
+    background-color: #14bbd3;
 }
 
 .footer{
